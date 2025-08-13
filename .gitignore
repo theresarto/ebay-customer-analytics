@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (important for privacy!)
+*.csv
+*.xlsx
+*.json
+data/raw/*
+data/processed/*
+!data/sample_data.csv  # We'll include only sample data
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model files
+*.pkl
+*.joblib
+models/*
+!models/.gitkeep
+
+# Secrets
+config/secrets.yaml
+credentials/
