@@ -20,6 +20,15 @@ data/raw/*
 data/processed/*
 !data/sample_data.csv  # We'll include only sample data
 
+# EXCEPTIONS - these files ARE allowed
+!data/sample_data.csv
+!data/ingredients_guide.csv
+!data/data_dictionary.md
+
+# Keep raw data private
+data/raw/*
+data/processed/*
+
 # OS files
 .DS_Store
 Thumbs.db
@@ -39,3 +48,4 @@ models/*
 # Secrets
 config/secrets.yaml
 credentials/
+
