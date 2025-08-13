@@ -1,0 +1,15 @@
+name: ebay-analytics
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - imbalanced-learn
+  - ipykernel
+  - jupyter
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - seaborn
+prefix: /Users/trto/anaconda3/envs/ebay-analytics
